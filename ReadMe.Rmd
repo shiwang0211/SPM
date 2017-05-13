@@ -11,12 +11,12 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Overview
 
-This project is based on Signal Performance Metric data from Semilnoe County, Florida. A supplementary data dashborad for visualization purpose can be accessed here: [Link for Dashboard](https://shiwang0211.shinyapps.io/Dashboard_SPMandTube/). Raw data are not included in this repository.
+This project is based on Signal Performance Metric data from Seminole County, Florida. A supplementary data dashboard for visualization purpose can be accessed here: [Link for Dashboard](https://shiwang0211.shinyapps.io/Dashboard_SPMandTube/). Raw data are not included in this repository.
 
 The analysis include:
 
 * Comparison between SPM and FDOT PTMS Counts
-* Dvelopment of prediction model using **Linear Regression** and **Random Forest**
+* Development of prediction model using **Linear Regression** and **Random Forest**
 * Comparison between SPM and Bluetooth Travel Time Data (Ongoing)
 * Visualization for other performance measures
 
