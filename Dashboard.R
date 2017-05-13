@@ -260,8 +260,8 @@ server <- function(input, output, session) {
     
     p <- plot_ly(x=Data_1()[,Time], y = Data_1()[,Volume], colors='blue', type = "scatter", mode = "lines+markers", name="Tube")%>%
       add_trace(x=Data_2()[,Time],y = Data_2()[,Volume], colors='red', type = "scatter", mode = "lines+markers", name="SPM")%>%
-      #add_trace(x=Data_pred()[,Time],y = Data_pred()[,Prediction_ls], colors='purple', type = "scatter", mode = "lines+markers", name="SPM_Prediction_ls")%>%
-      #add_trace(x=Data_pred()[,Time],y = Data_pred()[,Prediction_rf], colors='yellow', type = "scatter", mode = "lines+markers", name="SPM_Prediction_rf")%>%
+      add_trace(x=Data_pred()[,Time],y = Data_pred()[,Prediction_ls], colors='purple', type = "scatter", mode = "lines+markers", name="SPM_Prediction_ls")%>%
+      add_trace(x=Data_pred()[,Time],y = Data_pred()[,Prediction_rf], colors='yellow', type = "scatter", mode = "lines+markers", name="SPM_Prediction_rf")%>%
       #add_trace(x=Data_pred()[,Time],y = Data_pred()[,Prediction_anova], colors='green', type = "scatter", mode = "lines+markers", name="SPM_Prediction_anova")%>%
       #add_trace(x=Data_2()[,Time],y = Data_2()[,Volume] * 1.25,type = 'scatter', mode = 'lines',fill = 'tonexty', fillcolor='rgba(255,165,165,0.2)', line = list(color = 'transparent'), name = 'SPM +25%')%>%
       layout(
