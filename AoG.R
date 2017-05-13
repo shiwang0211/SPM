@@ -1,8 +1,8 @@
 library(data.table) 
 # Read Volume Data ( For all signals) ----
 
-Volume_All <- fread("E:/SPM_20170227/Event82_20161011_20161013_0600_0900.csv")  # testing purpose, to be changed
-Phase_All <- fread("E:/SPM_20170227/Phase_20161011_20161013_0600_0900.csv")  # testing purpose, to be changed
+Volume_All <- fread("D:/SPM_20170227/Event82_20161011_20161013_0600_0900.csv")  # testing purpose, to be changed
+Phase_All <- fread("D:/SPM_20170227/Phase_20161011_20161013_0600_0900.csv")  # testing purpose, to be changed
 ValidSignalIDs_v2 = sort(unique(Volume_All[,SignalID]))
 
 Volume_All <- Volume_All[Timestamp  >= '2016-10-11 07:00:00.100' & Timestamp < '2016-10-11 09:00:00.100'] # testing purpose, to be changed
