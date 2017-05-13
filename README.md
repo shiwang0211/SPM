@@ -8,3 +8,5 @@ The analysis include:
 -   Comparison between SPM and FDOT PTMS Counts
 -   Comparison between SPM and Bluetooth Travel Time Data (Ongoing)
 -   Visualization for other performance measures
+
+The packages used for the analysis include [leaflet](https://rstudio.github.io/leaflet/), [ggplot](http://ggplot2.tidyverse.org/index.html), [plotly](https://plot.ly/r/), [data.table](https://github.com/Rdatatable/data.table), etc.
